@@ -69,7 +69,8 @@ public class WebSecurityConfig {
             "http://127.0.0.1:5500",
             "http://localhost:4200",
             "http://localhost:8081",
-            "http://localhost:8082"
+            "http://localhost:8082",
+            "https://furnitureecom.netlify.app/"
         ));
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         configuration.setAllowedHeaders(Arrays.asList("*"));
